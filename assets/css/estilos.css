@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Raleway-Negrito';
+    src: url('/assets/fonts/Raleway/static/Raleway-Bold.ttf') format('truetype');
+    /* Adicione outros formatos, se necessário */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Raleway-Regular';
+    src: url('/assets/fonts/Raleway/static/Raleway-Regular.ttf') format('truetype');
+    /* Adicione outros formatos, se necessário */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*ESTILO DA PRIMEIRA PARTE*/
+.banner{
+    background-image: url(/assets/images/banner.png);
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    height: 605px;
+    border-bottom: 2px solid #33A8DB;
+    margin-bottom: 0px;
+}
+
+.banner-content{
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-content > h1{
+    text-transform: uppercase;
+    size: 40px;
+    color: #33A8DB;
+    font-weight: bold;
+    font-family: 'Raleway-Negrito', sans-serif;
+    text-align: center;
+}
+
+.banner-content > p {    
+    size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Raleway-Regular', sans-serif;
+    text-align: center;
+}
+
+.logo{
+    width: 248px;
+    height: 214px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    border: 2px solid #31A8DD;
+    margin-left: auto;
+    margin-right: auto;
+    width: 326px;
+    height: 57px;
+    background-color: #00000000;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway-Negrito', sans-serif;
+}
+
+
+main{
+    margin: 0px;
+}
+
+/* SEGUNDA PARTE */
+#course-content{
+    margin-top: -20px;
+    height: 400px;
+    background-color: #000000;
+    gap: 24px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #33A8DB;
+}
+
+#course-content > h2{
+    color: #33A8DB;
+    size: 32px;
+    font-family: 'Raleway-Negrito', sans-serif;
+    text-align: center;
+    padding-top: 38px;    
+}
+
+#course-content > p{
+    color: #ffffff;
+    size: 16px;
+    font-family: 'Raleway-Regular', sans-serif;
+    text-align: center;
+    padding-top: 38px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 792px;
+}
+
+.modules-list{
+    width: 792px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.module > span{
+    color: #33A8DB;
+}
+
+.module {
+    border: 1px solid #33A8DB;
+    width: 380px;
+    color: #ffffff;
+    display: block;
+    border-radius: 57px;
+    padding: 16px 100px 16px 127px;
+    margin: 10px;
+    gap: 10px;;
+    text-align: center;    
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #252525;
+    size: 16px;
+}
+
+/*
+    TERCEIRA PARTE - IMAGEM DE FUNDO
+*/
+
+#transform-world{
+    background-image: url(/assets/images/woman-code.png);
+    height: 363px;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    background-attachment: fixed;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #33A8DB;
+}
+
+#transform-world > p{
+    color: #ffffff;
+    width: 244px;
+    font-family: 'Raleway-Negrito', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 111px;
+    padding-left: 198px;
+    text-shadow: 3px 2px 0px #33A8DB; /* Adiciona uma sombra ao texto */
+}
+
+/*
+QUARTA PARTE
+*/
+#professional-challenges{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #33A8DB;
+}
+
+#professional-challenges > h2{
+    color: #33A8DB;
+    width: 746px;
+    padding-top: 76px;
+    font-family: 'Raleway-Regular', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+}
+
+#professional-challenges > img{
+    width: 659px;
+    height: 429px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#professional-challenges > p{
+    color: #ffffff;
+    width: 792px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Raleway-Regular', sans-serif;
+    font-size: 16px;
+}
+
+/*
+AREA DO FOOTER - ULTIMA PARTE
+*/
+
+footer{
+    height: 170px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+footer > img{
+    width: 310px;
+    height: 44px;
+    padding-top: 59px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer > p{
+    width: 259px;
+    padding-top: 19px;
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+}
